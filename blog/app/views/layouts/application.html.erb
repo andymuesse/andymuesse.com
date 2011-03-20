@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
-  <%= stylesheet_link_tag :all %>
+  <title>AndyMuesse.com</title>
+  <%= stylesheet_link_tag('public', :media => 'all') %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
@@ -11,4 +11,6 @@
 <%= yield %>
 
 </body>
+<iframe src="http://www.facebook.com/plugins/like.php?href=andymuesse.com&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+<div id="legal"><p id="copyright">Copyright &copy; 2011 Andy Muesse.</p></div>
 </html>
